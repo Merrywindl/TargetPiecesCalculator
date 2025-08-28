@@ -70,8 +70,9 @@ function App() {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'center',
-        flex: '1'
+        justifyContent: 'flex-start', // move content up
+        flex: '1',
+        marginTop: '40px' // add top margin
       }}>
         <div style={{ marginBottom: '30px' }}>
           <strong style={{ fontSize: '36px' }}>Target Pieces after downtime: {targetPiecesAfterDowntime()}</strong>
